@@ -54,3 +54,33 @@ console.log(limit_display);
 /******* || *******/
 
 //true + true = true
+let x = 23;
+let y = 24;
+const result = x === 23 || y === 24;
+console.log(result);
+
+
+//true + false = true
+let digit1 = 99;
+let digit2 = 29;
+digit1++;
+const result2 = digit1 === 100 || digit2 <= 28;
+console.log(result2);
+
+
+//false + true = true
+let graph_a = 10;
+let graph_b = 20;
+graph_a *= 10;
+graph_b /= 10;
+const result3 = graph_a <= 99 || graph_b >= 2;
+console.log(result3);
+
+
+//false + false = false
+let point_z = 999;
+let point_q = 109;
+point_z--; //998
+point_q++; //110
+let result4 = point_z === 999 || point_q !== 110;
+console.log(result4);
