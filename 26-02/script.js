@@ -33,3 +33,13 @@ if(time >= 0 && time <= 14){
 
 
 //4
+let test = false;
+if(test !== true){
+    alert('Верно');
+} else{
+    alert('Неверно');
+}
+
+
+let check = test !== true ? 'Верно' : 'Неверно';
+console.log(check);
