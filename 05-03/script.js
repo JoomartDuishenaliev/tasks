@@ -46,7 +46,7 @@ console.log(evenArray);
 let xArray = [];
 let x = 'x';
 
-for(let i = 10; i >= 0; i--){
+for(let i = 10; i >= 1; i--){
     xArray.push(x);
 }
 console.log(xArray);
