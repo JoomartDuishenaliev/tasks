@@ -21,13 +21,11 @@ console.log(sum);
 //3
 let squareArray = [1,2,3,4,5,6,7,8,9,10,11];
 let square = 0;
-let result = 0;
 
 for(let i = 0; i < squareArray.length; i++){
-    square = squareArray[i] * squareArray[i];
-    result += square;
+    square += squareArray[i] * squareArray[i];
 }
-console.log(result);
+console.log(square);
 
 
 //4
@@ -44,9 +42,8 @@ console.log(evenArray);
 
 //5
 let xArray = [];
-let x = 'x';
 
 for(let i = 10; i >= 1; i--){
-    xArray.push(x);
+    xArray.push('x');
 }
 console.log(xArray);
