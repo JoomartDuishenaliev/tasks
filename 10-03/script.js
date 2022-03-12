@@ -1,3 +1,4 @@
+//arrays into object task
 let justArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 let evenArray = [];
 let oddArray = [];
@@ -16,3 +17,15 @@ let justObject = {
 };
 
 console.log(justObject);
+
+
+//function task
+let message = function showMinimal(n, m) {
+    return (n < m) ? n : m;
+}
+
+function showValue(n) {
+    console.log(n);
+}
+
+showValue(message(3, 4));
