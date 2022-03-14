@@ -12,7 +12,7 @@ console.log(numCube(3));
 //3
 let name = 'Василий';
 
-let getName = () => (name == null || name !== 'Василий' ) ? `Привет, гость` : `Привет, ${name}`;
+let getName = () => (name === undefined || name !== 'Василий' ) ? `Привет, гость` : `Привет, ${name}`;
 console.log(getName());
 
 
