@@ -17,12 +17,8 @@ console.log(getName());
 
 
 //4
-let array1 = [1, 2, 3];
-let array2 = [4, 1, 1, 1, 4];
-let array3 = [2, 2, 2, 2, 2, 2];
+let array = [1, 2, 3, 4, 1, 1, 1, 4, 2, 2, 2, 2, 2, 2];
 
-let double1 = array1.map(currentValue => currentValue + currentValue);
-let double2 = array2.map(currentValue => currentValue + currentValue);
-let double3 = array3.map(currentValue => currentValue + currentValue);
+let mapped = array.map(value => value + value);
 
-console.log(double1, double2, double3);
+console.log(mapped);
