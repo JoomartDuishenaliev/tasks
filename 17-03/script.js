@@ -4,9 +4,9 @@ function updateContent(element, length){
     for(let i = 0; i < length; i++){
         newArr.push(element);
     }
-    console.log(newArr);
+    return newArr;
 }
-updateContent('a', 3);
+console.log(updateContent('a', 3));
 
 
 //2
