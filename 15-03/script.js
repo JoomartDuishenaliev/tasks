@@ -60,7 +60,7 @@ console.log(newArr);
 const data = [1,2,3];
 
 function reverseFunc(lastEl, firsEl) {
-    const sorter = data.sort((firstEl,lastEl)=>lastEl-firstEl);
+    data.sort((firstEl,lastEl)=>lastEl-firstEl);
 }
 reverseFunc(3, 1);
 console.log(data);
