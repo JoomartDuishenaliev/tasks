@@ -44,15 +44,14 @@ console.log(someObj);
 
 
 //2
-let newArr = [];
-
-function someContent(element, length){
+function updateContent(element, length){
+    let newArr = [];
     for(let i = 0; i < length; i++){
         newArr.push(element);
     }
+    return newArr;
 }
-someContent('a', 3);
-console.log(newArr);
+console.log(updateContent('a', 3));
 
 
 
