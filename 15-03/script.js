@@ -59,8 +59,8 @@ console.log(newArr);
 //3
 const data = [1,2,3];
 
-function reverseFunc(lastEl, firsEl) {
+function reverseFunc() {
     data.sort((firstEl,lastEl)=>lastEl-firstEl);
 }
-reverseFunc(3, 1);
+reverseFunc();
 console.log(data);
