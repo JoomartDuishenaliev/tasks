@@ -1,38 +1,23 @@
 //99
-/*let nums = prompt('Введите число');
-let x = 0;
-
-while(nums != 99){
-    x++;
-    nums = prompt('Введите число');
+const countNums = (x) => {
+    let nums = prompt('Введите число');
+    while(nums != 99){
+        x++;
+        nums = prompt('Введите число');
+    }
+    return `Количество чисел = ${x}`;
 }
-console.log('Количество чисел - ' + x);*/
+console.log(countNums(0));
 
 
 //999
-let q = 0;
-let sum = 0;
-let count = Number(prompt('Введите число'));
-
-while(count != 999){
-    q++;
-    sum += count;
-    count = Number(prompt('Введите число'));
+const addNums = (q, sum) => {
+    let count = Number(prompt('Введите число'));
+    while(count != 999){
+        q++;
+        sum += count;
+        count = Number(prompt('Введите число'));
+    }
+    return `Количество чисел = ${q} ; Сумма чисел = ${sum}`;
 }
-console.log('Количество чисел = ' + q, '; Сумма чисел = ' + sum);
-
-
-
-
-//For i variant
-/*let q = 0;
-let sum = 0;
-let count = Number(prompt('Введите число'));
-
-for(let i = 0; count != 999; i++){
-    q++;
-    sum += count;
-    count = Number(prompt('Введите число'));
-} if(count == 999){
-    console.log('Количество чисел = ' + q, '; Сумма чисел = ' + sum);
-}*/
+console.log(addNums(0, 0));
