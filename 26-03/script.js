@@ -7,16 +7,12 @@ function showNotification() {
     notification.textContent = 'Oopsie, ошибочка. Обновите страницу.';
     btn.className = 'btn btn-outline-warning col-10 mt-4 me-5';
 
-    let count = 0;
-    let intervalId = setInterval(() => {
-        count++;
-        if(count === 1){
-            notification.className = '';
-            notification.textContent = '';
-            btn.className = 'btn btn-primary col-10 mt-4 me-5';
-            clearInterval(intervalId);
-        }
-    }, 1500)
+    let timeoutId = setTimeout(() => {
+        notification.className = '';
+        notification.textContent = '';
+        btn.className = 'btn btn-primary col-10 mt-4 me-5';
+        clearTimeout(timeoutId);
+    }, 750)
 }
 
 btn.addEventListener('click', showNotification);
