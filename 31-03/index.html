@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 31-03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form action="javascript:void(0)">
+        <input class="primary-data1" type="text" placeholder="ФИО"> <br>
+        <div class="first-row">
+            <input class="primary-data2" type="number" placeholder="Номер телефона">
+            <input class="primary-data2" type="date">
+        </div>
+        <br>
+        <div class="second-row">
+            <span class="bold-font">Ваш пол?</span>
+            <label for="man" class="italic-style">Мужчина <input type="radio" name="gender" id="man" value="1"></label>
+            <label for="woman" class="italic-style">Женщина <input type="radio" name="gender" id="woman"
+                                                                   value="2"></label for="woman">
+        </div>
+        <br>
+        <div class="third-row">
+            <p class="bold-font">Выберите язык программирования</p>
+            <div class="fourth-row">
+                <label for="js" class="italic-style">Javascript<input type="checkbox" id="js" value="js"></label>
+                <label for="java" class="italic-style">Java<input type="checkbox" id="java" value="java"></label>
+                <label for="sql" class="italic-style">SQL<input type="checkbox" id="sql" value="sql"></label>
+            </div>
+        </div>
+        <br>
+        <div class="fifth-row">
+            <p class="bold-font">Выберите филиал IT школы</p>
+            <div class="sixth-row">
+                <select>
+                    <option class="default" value="0">Выберите филиал</option>
+                    <option value="1">Суюмбаев 123</option>
+                    <option value="2">Турусбеков 109/1</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <input type="submit">
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
