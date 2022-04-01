@@ -39,6 +39,19 @@ select .default{
     color: grey;
 }
 
+form .btn{
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    height: 25px;
+    background-color: lightsteelblue;
+    color: darkblue;
+}
+
+form .btn:hover{
+    cursor: pointer;
+}
+
 .bold-font{
     font-weight: bold;
 }
